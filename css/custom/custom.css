@@ -1,0 +1,46 @@
+.reveal .slides section .font-handle {
+    font-family: 'Shadows Into Light', cursive;
+    color: #1c76f1;
+    transform: rotate(-1.4deg);
+}
+
+.reveal .slides section a {
+    text-decoration: underline;
+}
+.reveal {
+    font-size: 1.6em;
+    text-align: left;
+    font-family: 'Tajawal', sans-serif;
+}
+.reveal ul, 
+.reveal ol {
+    margin:.3em 0 1em;
+} 
+.reveal li {
+    margin-bottom: .2em;
+}
+.reveal pre {
+    font-size: .85em;
+}
+.custom-slide {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    min-height: 100vh;
+}
+.custom-slide__content {
+    flex-grow: 1;
+    display: flex;
+}
+.custom-slide__header {
+    padding-top: 2rem;
+}
+
+.reveal .container { margin: auto; padding-bottom: 3rem;}
+.reveal .row {
+    display: flex;
+    justify-content: space-between;
+}
+.cell-50 {
+    width: 46%;
+}

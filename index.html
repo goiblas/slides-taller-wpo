@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -7,7 +7,11 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tajawal:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/custom/custom.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -22,10 +26,87 @@
 		</script>
 	</head>
 	<body>
-		<div class="reveal">
+		<div class="reveal left">
 			<div class="slides">
-				<section>Portada</section>
-				<section>Sección</section>
+				<section>
+					<h1>WPO</h1>
+					<h2>Web Performace Optimization</h2>
+					<p>Jesús Olazagoita</p>
+				</section>
+				<section>
+					<h3>¿Qué es?</h3>
+					<p>Un conjunto de técnicas para reducir el tiempo de carga de un sitio web </p>
+					<p class="fragment font-handle" data-autoslide="10000">O por lo menos que lo parezca</p>
+				</section>
+				<section>
+						<div class="custom-slide">
+								<div class="custom-slide__header">
+									<h2> ¿Por qué? 🤔</h2>
+								</div>
+								<div class="custom-slide__content">
+									<div class="container">
+									<ul>
+											<li>Factor importante para el posicionamiento (SEO) </li>
+											<li>Reducimos peso y transferencia del servidor, ahorrando costes </li>
+											<li>Experiencia de usuario</li>
+											<li>Aumento de tráfico a través de los dispositivos móviles
+												<ul>
+													<li>Mala conexión</li>
+													<li>Hardware limitado</li>
+												</ul>
+											</li>
+										</ul>
+										<p><a href="https://wpostats.com/" target="_blank" rel="noopener">wpostats.com</a></p>
+								</div>
+								</div>
+								</div>
+				</section>
+				<section>
+					<div class="custom-slide">
+					<div class="custom-slide__header">
+						<h2> Claves Iniciales 👨🏻‍🏫</h2>
+					</div>
+					<div class="custom-slide__content">
+						<div class="container row">
+							<div class="cell-50">
+								<ul>
+										<li>Evitar redicciones y errores 404</li>
+										<li>Reducir el peso de los archivos
+											<ul>
+												<li>Optimizar recursos (imágenes, videos, ...)</li>
+												<li>Minificar html, css y js</li>
+											</ul>
+										</li>
+										<li>Reducir el número de peticiones
+											<ul>
+												<li>Concatenar archivos</li>
+												<li>Iconos (fuente o svg)</li>
+											</ul>
+										</li>
+										<li>Lazy load</li>
+									</ul>
+								</div>
+								<div class="cell-50">
+								<ul>
+										<li>Optimizaciones del lado del servidor
+											<ul>
+												<li>Compresión Gzip</li>
+												<li>Compresión HTTP headers cache</li>
+												<li>CDN - Content Delivery Network</li>
+												<li>HTTP2</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+						</div>
+					
+				</div>
+				</div>
+				</section>
+				<section>
+					<h2>Google Fonts</h2>
+					<pre><code><link rel="preconnet" href="https://fonts.gstatic.com" crossorigin></code></pre>
+				</section>
 			</div>
 		</div>
 
